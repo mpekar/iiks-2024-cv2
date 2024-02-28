@@ -27,6 +27,11 @@ Parameters:
     Type: String
     Default: basic-network
 
+  OurPublicIp:
+    Description: Our source public IPv4 address
+    Type: String
+    Default: '158.193.138.31/32'
+
   ImageId:
     Description: AMI (Amazon Machine Image) ID
     Type: String
